@@ -6,7 +6,9 @@ namespace Complaint.Controllers
     {
         public IActionResult Index()
         {
+            Console.WriteLine("LoginController Index action called");
             return View();
+            //
         }
     }
 }
